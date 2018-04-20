@@ -25,7 +25,7 @@
 
 ![](images/circle.png)  [Blynk-Library](https://github.com/blynkkk/blynk-library)
 
-# ![](/Resource/Person.png) Team Members
+# ![](images/member.png) Members
 |  |ชื่อ|นามสกุล|GitHub Username|รหัสนักศึกษา|
 |:-:|--|------|---------------|---------|
 |![](images/peerapol.png)|Peerapol|Onhan|[@pumy2517](https://github.com/pumy2517)|60070067|
