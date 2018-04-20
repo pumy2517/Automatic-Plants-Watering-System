@@ -25,5 +25,8 @@
 
 ![](images/circle.png)  [Blynk-Library](https://github.com/blynkkk/blynk-library)
 
-![](/images/pattarapong.png)
-![](/images/peerapol.png)
+# ![](/Resource/Person.png) Team Members
+|  |ชื่อ|นามสกุล|GitHub Username|รหัสนักศึกษา|
+|:-:|--|------|---------------|---------|
+|(images/peerapol.png)|Peerapol|Onhan|[@pumy2517](https://github.com/pumy2517)|60070067|
+|(images/pattarapong.png)|Pattarapong|Intubtim|[@mezz3](https://github.com/mezz3)|60070070|
