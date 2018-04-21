@@ -16,14 +16,30 @@
 
 *แต่จำเป็นต้องต่ออินเทอร์เน็ตกับบอร์ดผ่าน Wifi ด้วยครับ
 
+# ![](images/apps.png) Application Blynk
+ในส่วนของ application ที่ใช้ ชื่อว่า Blynk นั้น สามารถควบคุมการเปิด - ปิดของ water pump ได้
+
+มีหน้าจอ Monitor ไว้บอกค่าของแสง ณ บริเวณนั้น และความชื้นในดิน บอกเป็นเปอร์เซ็นต์
+
+สามารถตั้งเวลาที่เราจะรดน้ำต้นไม้ได้ผ่านแอป Blynk โดยใช้ Mode Time
+
+ตั้งให้ water pump ทำงานไว้ เช่น ตั้งให้ทุก ๆ 8 ชั่วโมงจะรดน้ำต้นไม้ของเรา
+
+![](images/blynk_interface.png)
+
 # ![](images/notebook.png) Library Requirements
-* [TridentTD_LineNotify](https://github.com/TridentTD/TridentTD_LineNotify)
+* [Blynk Library](https://github.com/blynkkk/blynk-library)
+* [LineNotify Library](https://github.com/TridentTD/TridentTD_LineNotify)
+* [ADS1X15 Library](https://github.com/adafruit/Adafruit_ADS1X15)
+* [Time_Library](https://github.com/PaulStoffregen/Time)
 
-* [Adafruit_ADS1X15](https://github.com/adafruit/Adafruit_ADS1X15)
-
-* [Time.h](https://github.com/PaulStoffregen/Time)
-
-* [Blynk-Library](https://github.com/blynkkk/blynk-library)
+# ![](images/tools.png) Tools
+* WeMos D1R1 WiFi UNO Development Board ESP8266
+* I2C ADS1015 12-Bit ADC - 4 Channel
+* 1 Channel Relay
+* Soil Moisture Sensor
+* Water Pump 6V
+* ฺBreadboard
 
 # ![](images/member.png) Members
 |  |ชื่อ|นามสกุล|GitHub Username|รหัสนักศึกษา|
@@ -39,14 +55,3 @@
 รายงานนี้เป็นส่วนหนึ่งของวิชา Computer Programming (รหัส 06016206)
 
 คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง
-
-# ![](images/apps.png) Application Blynk
-ในส่วนของ application ที่ใช้ ชื่อว่า Blynk นั้น สามารถควบคุมการเปิด - ปิดของ water pump ได้
-
-มีหน้าจอ Monitor ไว้บอกค่าของแสง ณ บริเวณนั้น และความชื้นในดิน บอกเป็นเปอร์เซ็นต์
-
-สามารถตั้งเวลาที่เราจะรดน้ำต้นไม้ได้ผ่านแอป Blynk โดยใช้ Mode Time
-
-ตั้งให้ water pump ทำงานไว้ เช่น ตั้งให้ทุก ๆ 8 ชั่วโมงจะรดน้ำต้นไม้ของเรา
-
-![](images/blynk_interface.png)
