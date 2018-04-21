@@ -3,6 +3,8 @@
 
 โดยสามารถสั่งการได้เองผ่าน Smartphone และสามารถตั้งเวลาให้รดน้ำต้นไม้เองได้อีกด้วย
 
+---
+
 # ![](images/help.png) How to use
 วิธีใช้นั้นง่าย ๆ ครับ ต่อถ่านไฟฉายขนาด 9V ก้อนแรกกับบอร์ด Wemos D1R1 อีกก้อนต่อกับ Water Pump
 
@@ -13,6 +15,8 @@
 หรือถ้าอยากควบคุมระยะไกล ก็สามารถใช้ application ที่ชื่อว่า Blynk (สามารถใช้ได้ทั้งระบบปฏิบัติการ Android และ IOS ครับ)
 
 *แต่จำเป็นต้องต่ออินเทอร์เน็ตกับบอร์ดผ่าน Wifi ด้วยครับ
+
+---
 
 # ![](images/apps.png) Application Blynk
 ในส่วนของ application ที่ใช้ ชื่อว่า Blynk นั้น สามารถควบคุมการเปิด - ปิดของ water pump ได้
@@ -29,6 +33,8 @@
 ## ![](images/time.png) Mode Time
 ![](images/blynk_interface_time.png)
 
+---
+
 # ![](images/notebook.png) Library Requirements
 * [Blynk Library](https://github.com/blynkkk/blynk-library)
 * [LineNotify Library](https://github.com/TridentTD/TridentTD_LineNotify)
@@ -44,6 +50,8 @@
 * Water Pump 6V
 * Battery 9V (2 ea)
 * Breadboard
+
+---
 
 # ![](images/member.png) Members
 |  |ชื่อ|นามสกุล|GitHub Username|รหัสนักศึกษา|
