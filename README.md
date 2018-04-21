@@ -16,7 +16,7 @@
 
 *แต่จำเป็นต้องต่ออินเทอร์เน็ตกับบอร์ดผ่าน Wifi ด้วยครับ
 
-# ![](images/notebook.png) Library
+# ![](images/notebook.png) Library Requirements
 * [TridentTD_LineNotify](https://github.com/TridentTD/TridentTD_LineNotify)
 
 * [Adafruit_ADS1X15](https://github.com/adafruit/Adafruit_ADS1X15)
