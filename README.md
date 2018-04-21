@@ -68,6 +68,18 @@
 
 ---
 
+# ![](images/picture.png) More Pictures
+
+แสดงถึงด้านหน้าและด้านข้างของอุปกรณ์
+
+## Front View
+![](images/front.png)
+
+## Side View
+![](images/side.png)
+
+---
+
 # ![](images/member.png) Members
 |  |ชื่อ|นามสกุล|GitHub Username|รหัสนักศึกษา|
 |:-:|--|------|---------------|---------|
