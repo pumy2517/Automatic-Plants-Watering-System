@@ -31,7 +31,7 @@
 * [Blynk Library](https://github.com/blynkkk/blynk-library)
 * [LineNotify Library](https://github.com/TridentTD/TridentTD_LineNotify)
 * [ADS1X15 Library](https://github.com/adafruit/Adafruit_ADS1X15)
-* [Time_Library](https://github.com/PaulStoffregen/Time)
+* [Time Library](https://github.com/PaulStoffregen/Time)
 
 # ![](images/tools.png) Tools
 * WeMos D1R1 WiFi UNO Development Board ESP8266
@@ -39,7 +39,8 @@
 * 1 Channel Relay
 * Soil Moisture Sensor
 * Water Pump 6V
-* ฺBreadboard
+* Battery 9V (2 ea)
+* Breadboard
 
 # ![](images/member.png) Members
 |  |ชื่อ|นามสกุล|GitHub Username|รหัสนักศึกษา|
