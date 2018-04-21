@@ -17,13 +17,13 @@
 *แต่จำเป็นต้องต่ออินเทอร์เน็ตกับบอร์ดผ่าน Wifi ด้วยครับ
 
 # ![](images/notebook.png) Library
-![](images/circle.png)  [TridentTD_LineNotify](https://github.com/TridentTD/TridentTD_LineNotify)
+* [TridentTD_LineNotify](https://github.com/TridentTD/TridentTD_LineNotify)
 
-![](images/circle.png)  [Adafruit_ADS1X15](https://github.com/adafruit/Adafruit_ADS1X15)
+* [Adafruit_ADS1X15](https://github.com/adafruit/Adafruit_ADS1X15)
 
-![](images/circle.png)  [Time.h](https://github.com/PaulStoffregen/Time)
+* [Time.h](https://github.com/PaulStoffregen/Time)
 
-![](images/circle.png)  [Blynk-Library](https://github.com/blynkkk/blynk-library)
+* [Blynk-Library](https://github.com/blynkkk/blynk-library)
 
 # ![](images/member.png) Members
 |  |ชื่อ|นามสกุล|GitHub Username|รหัสนักศึกษา|
