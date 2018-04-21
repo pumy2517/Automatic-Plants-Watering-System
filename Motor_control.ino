@@ -7,8 +7,8 @@
 
 #define Relay D2            //Variable Relay is D2
 #define BLYNK_PRINT Serial
-#define ssid "Chalermwong"  //SSID WIFI
-#define pass "10010110"     //PASSWORD WIFI
+#define ssid "Fluke"  //SSID WIFI
+#define pass "647C1306"     //PASSWORD WIFI
 #define LINE_TOKEN   "OK7wIuUyLwFI7XMzyLpAHP9bGaX4yk96g2cZroJlXhp" //LINE TOKEN
 Adafruit_ADS1015 ads;
 TridentTD_LineNotify myLINE(LINE_TOKEN);
@@ -33,17 +33,18 @@ int dst = 0;
 
 void Watering(void)
 {
-    if(check==0)
+    /*if(check==0)
     {
         myLINE.notify("กำลังทำการรดน้ำต้นไม้");
         Blynk.virtualWrite(V4, "Pump On");
         delay(1000);
-        Blynk.virtualWrite(V4, "Watering");
         delay(500);
         check++;
-    }
-    digitalWrite(Relay, LOW);
-    delay(5000);
+    }*/
+      digitalWrite(Relay, LOW);
+      Blynk.virtualWrite(V4, "Watering");
+      Moisture = analogRead(sensorPin);
+      delay(500);
 }
 
 
@@ -125,6 +126,7 @@ BLYNK_WRITE(V6)
     int y = param.asInt();
     if(y==1)
     {
+      myLINE.notify("กำลังทำการรดน้ำต้นไม้");
       Watering();
     }
     else
@@ -154,10 +156,10 @@ void loop()
 
   
   //รับค่าความเข้มแสงจากI2C
-  Light = ads.readADC_SingleEnded(0)/16; 
+  Light = ads.readADC_SingleEnded(0)/20; 
   
   //รับค่าความชื้นของดินจากช่องDigital 2
-  Moisture = analogRead(sensorPin)/4;   
+  Moisture = analogRead(sensorPin)/12;   
 
   //Show data in blynk dashboard
   Blynk_print(Moisture, Light);
@@ -169,32 +171,54 @@ void loop()
     time_t now = time(nullptr);
     struct tm* p_tm = localtime(&now);
     Serial.print(p_tm->tm_sec);
+    Serial.print(":");
+    Serial.print(p_tm->tm_min);
+    Serial.print(":");
+    Serial.print(p_tm->tm_hour);
+    Serial.print("\n");
+    Serial.print(time_hour);
+    Serial.print(":");
+    Serial.print(time_min);
+    Serial.print("\n");
     if((p_tm->tm_sec == 0)&&(p_tm->tm_min == time_min)&&(p_tm->tm_hour == time_hour))
     {
-      Watering();
+      myLINE.notify("กำลังทำการรดน้ำต้นไม้");
+      for(int i=0; i<=10; i++)
+      {
+        Watering();
+        Moisture = analogRead(sensorPin); 
+      }
       check++;
     }
     if(check != 0)
     {
     StopMotor();
+    check = 0;
     }
   }
   
-  //Check moisture
+  //Moisture mode
   else{
-  while(Moisture<=30)
+  while(Moisture<=40)
   {
-    if(check==0)
+    if(check == 0)
     {
-      Blynk.virtualWrite(V4, "Watering"); 
+      myLINE.notify("ความชื้นต่ำ");
+      delay(500);
+      myLINE.notify("กำลังทำการรดน้ำต้นไม้");
+      delay(500);
     }
-    Watering();
-    Moisture = analogRead(sensorPin);
+    for(int i=0; i<=10; i++)
+    {
+      Watering();
+      Moisture = analogRead(sensorPin); 
+    }
     check++; 
   }
   if(check!=0)
   {
-    StopMotor();  
+    StopMotor();
+    check = 0;
   }
   }
 } 
