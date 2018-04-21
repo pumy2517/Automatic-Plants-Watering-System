@@ -16,7 +16,7 @@
 
 *แต่จำเป็นต้องต่ออินเทอร์เน็ตกับบอร์ดผ่าน Wifi ด้วยครับ
 
-[Full Documentation](https://github.com/compro-itkmitl/Automatic-Plants-Watering-System/wiki/Full-documentation)
+[Full Documentation](https://github.com/compro-itkmitl/Automatic-Plants-Watering-System/wiki)
 
 ---
 
