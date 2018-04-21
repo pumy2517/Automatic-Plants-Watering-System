@@ -8,7 +8,7 @@
 # ![](images/help.png) How to use
 วิธีใช้นั้นง่าย ๆ ครับ ต่อถ่านไฟฉายขนาด 9V ก้อนแรกกับบอร์ด Wemos D1R1 อีกก้อนต่อกับ Water Pump
 
-เท่านี้เครื่องรดน้ำต้นไม้อัตโนมัติก็จะทำงานตามโปรแกรมที่สั่งไว้แล้วครับ
+เท่านี้เครื่องรดน้ำต้นไม้อัตโนมัติก็จะทำงานตามโปรแกรมที่สั่งไว้แล้วครับ ก็คือความชื้นต่ำกว่า 40% เครื่องจะทำการรดน้ำ
 
 แต่ถ้าอยากปรับค่าตามสภาพแวดล้อมต่าง ๆ ก็สามารถแก้ไขได้ผ่านไฟล์ Motor_control.ino
 
@@ -23,9 +23,13 @@
 
 สามารถตั้งเวลาที่เราจะรดน้ำต้นไม้ได้ผ่านแอป Blynk โดยใช้ Mode Time
 
-ตั้งให้ water pump ทำงานไว้ เช่น ตั้งให้ทุก ๆ 8 ชั่วโมงจะรดน้ำต้นไม้ของเรา
+ตั้งให้ water pump ทำงานไว้ เช่น ตั้งให้ทุก ๆ 8 นาฬิกาจะรดน้ำต้นไม้ของเรา
 
-![](images/blynk_interface.png)
+## Mode Normal (Moisture Mode)
+![](images/blynk_interface_moisture.png)
+
+## Mode Time
+![](images/blynk_interface_time.png)
 
 # ![](images/notebook.png) Library Requirements
 * [Blynk Library](https://github.com/blynkkk/blynk-library)
