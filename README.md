@@ -25,10 +25,10 @@
 
 ตั้งให้ water pump ทำงานไว้ เช่น ตั้งให้ทุก ๆ 8 นาฬิกาจะรดน้ำต้นไม้ของเรา
 
-## Mode Normal (Moisture Mode)
+## ![](images/moisture.png) Mode Normal (Moisture Mode)
 ![](images/blynk_interface_moisture.png)
 
-## Mode Time
+## ![](images/time.png) Mode Time
 ![](images/blynk_interface_time.png)
 
 # ![](images/notebook.png) Library Requirements
