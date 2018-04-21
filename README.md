@@ -30,3 +30,12 @@
 |:-:|--|------|---------------|---------|
 |![](images/peerapol.png)|Peerapol|Onhan|[@pumy2517](https://github.com/pumy2517)|60070067|
 |![](images/pattarapong.png)|Pattarapong|Intubtim|[@mezz3](https://github.com/mezz3)|60070070|
+
+# ![](images/teacher.png) Assistant Teacher
+|ผศ.ดร. กิติ์สุชาติ พสุภา|ผศ.ดร. ปานวิทย์ ธุวะนุติ|
+|:-:|:-:|
+|![](images/aj_kitsuchart.png)|![](images/aj_panwit.png)|
+
+รายงานนี้เป็นส่วนหนึ่งของวิชา Computer Programming (รหัส 06016206)
+
+คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง
