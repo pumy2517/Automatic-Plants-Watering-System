@@ -37,6 +37,17 @@
 
 ---
 
+# ![](images/line.png) Line Notification
+
+เมื่อ Water Pump มีการเปิด - ปิด สามารถตั้งค่าให้แจ้งเตือนว่า
+
+"กำลังรดน้ำต้นไม้" เมื่อกำลังรดน้ำต้นไม้ และ "หยุดการรดน้ำต้นไม้" เมื่อ Water Pump หยุดทำงาน
+
+## ![](images/line_16.png) Screenshot Line Notify
+![](images/line_notify.png)
+
+---
+
 # ![](images/notebook.png) Library Requirements
 * [Blynk Library](https://github.com/blynkkk/blynk-library)
 * [LineNotify Library](https://github.com/TridentTD/TridentTD_LineNotify)
