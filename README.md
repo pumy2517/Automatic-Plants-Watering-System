@@ -42,6 +42,7 @@
 * I2C ADS1015 12-Bit ADC - 4 Channel
 * 1 Channel Relay
 * Soil Moisture Sensor
+* Light Sensor
 * Water Pump 6V
 * Battery 9V (2 ea)
 * Breadboard
