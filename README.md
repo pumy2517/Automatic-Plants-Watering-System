@@ -65,6 +65,8 @@
 * Water Pump 6V
 * Battery 9V (2 ea)
 * Breadboard
+* Water Source
+* Plant
 
 ---
 
