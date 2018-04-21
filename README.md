@@ -41,6 +41,8 @@
 * [ADS1X15 Library](https://github.com/adafruit/Adafruit_ADS1X15)
 * [Time Library](https://github.com/PaulStoffregen/Time)
 
+---
+
 # ![](images/tools.png) Tools
 * WeMos D1R1 WiFi UNO Development Board ESP8266
 * I2C ADS1015 12-Bit ADC - 4 Channel
