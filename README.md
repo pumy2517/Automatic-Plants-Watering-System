@@ -69,3 +69,9 @@
 รายงานนี้เป็นส่วนหนึ่งของวิชา Computer Programming (รหัส 06016206)
 
 คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง
+
+---
+
+Faculty of Information Technology
+
+King Mongkut's Institute of Technology Ladkrabang
