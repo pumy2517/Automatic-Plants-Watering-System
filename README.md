@@ -89,7 +89,7 @@
 |![](images/pattarapong.png)|Pattarapong|Intubtim|[@mezz3](https://github.com/mezz3)|60070070|
 
 # ![](images/teacher.png) Assistant Teacher
-|ผศ.ดร. กิติ์สุชาติ พสุภา|ผศ.ดร. ปานวิทย์ ธุวะนุติ|
+|ผศ.ดร. กิติ์สุชาต พสุภา|ผศ.ดร. ปานวิทย์ ธุวะนุติ|
 |:-:|:-:|
 |![](images/aj_kitsuchart.png)|![](images/aj_panwit.png)|
 
